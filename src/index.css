@@ -18,6 +18,7 @@ body {
 
 .links-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -27,6 +28,11 @@ input {
   cursor: pointer;
   border-radius: 7px;
   padding: 5px;
+}
+
+input:hover {
+  background-color: red;
+  color: white;
 }
 
 .selecciona {
@@ -47,5 +53,9 @@ a {
 
 a:hover {
   color: red;
+}
+
+.codigo-text {
+  font-size: 25px;
 }
 
